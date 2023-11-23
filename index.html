@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="blackjack.css"> 
+</head>
+
+<body>
+    <div class="container themed-container">
+        <div class="jumbotron">
+            <h1 class="text-center">♠️ Blackjack Game ♣️</h1>
+        </div>
+        <div class="text-center game-info">
+            <p id="message-el" class="game-message">Ready to play?</p>
+            <div class="game-stats">
+                <h2 id="cards-el">Cards: 🂠</h2>
+                <h2 id="sum-el">Sum: </h2>
+            </div>
+            <button class="btn btn-success game-btn" onclick="playGame()">Start Game</button>
+            <button class="btn btn-info game-btn" onclick="newcard()">Draw Card</button>
+            <h3 id="player-El" class="player-stats"></h3>
+        </div>
+    </div>
+    <script src="blackjack.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+body {
+    background-color: #2c3e50;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #ecf0f1;
+}
+
+.themed-container {
+    margin-top: 50px;
+}
+
+.jumbotron {
+    background-color: #34495e;
+    border-radius: 6px;
+    padding: 30px 15px; /* Larger padding for a more spacious look */
+}
+
+.jumbotron h1 {
+    color: #f39c12; /* Golden color for a luxurious feel */
+    font-size: 3em; /* Larger text size */
+    text-shadow: 2px 2px 4px #000000; /* Text shadow for depth */
+}
+
+.game-info {
+    margin-top: 40px; /* More space between elements */
+}
+
+.game-message {
+    font-size: 1.5em;
+    margin-bottom: 20px; /* Spacing between message and game stats */
+}
+
+.game-stats h2 {
+    font-size: 1.8em;
+    margin: 20px 0; /* Uniform vertical spacing */
+}
+
+.game-btn {
+    font-size: 1.2em;
+    padding: 15px 30px; /* Larger buttons */
+    margin: 5px; /* Spacing between buttons */
+    transition: all 0.3s; /* Smooth interaction transition */
+}
+
+.game-btn:hover {
+    transform: scale(1.1); /* Interactive element grows when hovered */
+}
+
+.player-stats {
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
